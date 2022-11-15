@@ -3,13 +3,18 @@
     class="
       lg:h-screen lg:flex
       items-center
-      lg:gap-16 lg:px-24
+      justify-center
+      lg:space-x-16 lg:px-24
       px-6
       lg:py-24
       py-6
     "
   >
-    <div class="lg:w-1/3 h-3/4 lg:flex hidden justify-end">
+    <div
+      data-aos="fade-right"
+      data-aos-duration="2300"
+      class="lg:w-1/3 h-3/4 lg:flex hidden justify-end"
+    >
       <img class="object-contain rounded-lg" src="/experience.jpg" alt="" />
     </div>
     <div class="lg:w-2/3 lg:pl-36">
@@ -24,11 +29,10 @@
         <br class="hidden lg:block" />
         luxurious style and with premuim quality materials.
       </div>
-      <div class="lg:py-10 py-7 flex space-x-12">
-        <Number number="17" text="Years Experience" />
-        <Number number="85" text="Award Gained" />
-        <Number number="537" text="Furnitures sold" />
-      </div>
+
+      <Number />
+
+      <Progress />
 
       <!-- button -->
       <div>
@@ -55,8 +59,12 @@
 <script>
 import Arrow from "~/components/Icons/Arrow.vue";
 import Number from "~/components/Reusable/Number.vue";
+import Progress from "../Progress.vue";
 export default {
-  components: { Arrow, Number },
+  components: { Arrow, Number, Progress },
+  data() {
+    return {};
+  },
 };
 </script>
 
