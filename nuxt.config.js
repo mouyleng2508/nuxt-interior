@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-interior',
+    title: 'Interior',
     htmlAttrs: {
       lang: 'en'
     },
@@ -21,10 +21,12 @@ export default {
   css: [
     "~/assets/css/tailwind.css",
     "~/assets/css/style.css",
+    "aos/dist/aos.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: "~/plugins/aos", ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -42,5 +44,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    vendor: ["aos"],
   }
 }

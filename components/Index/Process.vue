@@ -17,6 +17,8 @@
       <Timeline class="lg:mx-0 mx-6" />
     </div>
     <div
+      data-aos="fade-left"
+      data-aos-duration="1900"
       class="bg-center bg-no-repeat bg-cover h-full rounded-md ml-10"
       :style="{
         backgroundImage: ` url('/process.jpg')`,
