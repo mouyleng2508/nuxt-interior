@@ -18,13 +18,13 @@
         </h2>
         <ul class="text-gray-300" v-for="s in i.submenu" :key="s.title">
           <li class="
-                                          lg:text-sm
-                                          text-xs
-                                          pb-1
-                                          hover:underline
-                                          capitalize
-                                          font-normal
-                                        ">
+                                            lg:text-sm
+                                            text-xs
+                                            pb-1
+                                            hover:underline
+                                            capitalize
+                                            font-normal
+                                          ">
             {{ s.title }}
           </li>
         </ul>
@@ -55,20 +55,20 @@
 
     <!-- copy right -->
     <div class="
-                                    flex
-                                    lg:flex-row
-                                    flex-col
-                                    justify-center
-                                    pt-4
-                                    text-gray-300
-                                    font-light
-                                    lg:text-sm
-                                    text-xs
-                                  ">
+                                      flex
+                                      lg:flex-row
+                                      flex-col
+                                      justify-center
+                                      pt-4
+                                      text-gray-300
+                                      font-light
+                                      lg:text-sm
+                                      text-xs
+                                    ">
       <div>©2022, All rights reserved<span class="px-2"> | </span> </div>
       <div class=" text-gray-300 lg:text-sm text-xs">
         Developed by
-        <span class="hover:underline font-semibold"><a href="http://mouyleng-h.me/" target="_blank">Heng
+        <span class="hover:underline font-semibold"><a href="#" target="_blank">Heng
             Mouyleng</a></span>
         Using
         <span class="underline font-semibold "><a href="https://nuxtjs.org/" target="_blank">Nuxtjs</a>
