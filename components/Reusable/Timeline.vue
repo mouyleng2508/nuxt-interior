@@ -1,36 +1,32 @@
 <template>
   <ol class="relative border-l border-gray-200 dark:border-gray-700">
     <li class="mb-10 ml-6" v-for="p in process" :key="p.index">
-      <span
-        class="
-          flex
-          absolute
-          -left-5
-          justify-center
-          items-center
-          w-10
-          h-10
-          bg-primary
-          rounded-full
-          ring-8 ring-white
-          lg:text-base
-          text-sm text-white
-        "
-      >
+      <span class="
+                    flex
+                    absolute
+                    -left-5
+                    justify-center
+                    items-center
+                    w-10
+                    h-10
+                    bg-primary
+                    rounded-full
+                    ring-8 ring-white
+                    lg:text-base
+                    text-sm text-white
+                  ">
         {{ p.number }}
       </span>
-      <h3
-        class="
-          flex
-          items-center
-          ml-5
-          pt-2
-          lg:text-xl
-          text-base
-          font-semibold
-          text-gray-900
-        "
-      >
+      <h3 class="
+                    flex
+                    items-center
+                    ml-5
+                    pt-2
+                    lg:text-xl
+                    text-base
+                    font-semibold
+                    text-gray-900
+                  ">
         {{ p.title }}
       </h3>
 
@@ -70,5 +66,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
