@@ -8,7 +8,7 @@
             lg:py-24
             py-6
           ">
-    <div data-aos="fade-right" data-aos-duration="2300" class="lg:w-1/3 h-3/4 lg:flex hidden justify-end">
+    <div data-aos="fade-in" data-aos-duration="2300" class="lg:w-1/3 h-3/4 lg:flex hidden justify-end">
       <img class="object-contain rounded-lg" src="/experience.jpg" alt="" />
     </div>
     <div class="lg:w-2/3 lg:pl-36">
@@ -17,7 +17,7 @@
         best experience
       </div>
       <div class="lg:text-sm text-xs lg:leading-6 leading-5 text-gray-600">
-        You don't worry about the result because all of these interiors are
+        You don't need to worry about the result because all of these interiors are
         <br class="hidden lg:block" />
         made by people who are professionals in their fields with an elegant and
         <br class="hidden lg:block" />
