@@ -10,41 +10,21 @@
           luxurious interior design by a <br class="hidden lg:block" />
           professional interior designer.
         </p>
-        <div class="pt-4 text-gray-300 lg:text-sm text-xs">
-          Developed by
-          <span class="hover:underline"
-            ><a href="http://mouyleng-h.me/" target="_blank"
-              >Heng Mouyleng</a
-            ></span
-          >
-          <br />
-          Using
-          <span class="hover:underline"
-            ><a href="https://nuxtjs.org/" target="_blank">Nuxtjs</a>
-          </span>
-          x
-          <span class="hover:underline"
-            ><a href="https://tailwindcss.com/" target="_blank"
-              >Tailwind</a
-            ></span
-          >
-        </div>
+
       </div>
       <div class="mb-4" v-for="i in Items" :key="i.index">
         <h2 class="mb-4 lg:text-base text-sm font-semibold text-white">
           {{ i.title }}
         </h2>
         <ul class="text-gray-300" v-for="s in i.submenu" :key="s.title">
-          <li
-            class="
-              lg:text-sm
-              text-xs
-              pb-1
-              hover:underline
-              capitalize
-              font-normal
-            "
-          >
+          <li class="
+                                            lg:text-sm
+                                            text-xs
+                                            pb-1
+                                            hover:underline
+                                            capitalize
+                                            font-normal
+                                          ">
             {{ s.title }}
           </li>
         </ul>
@@ -74,20 +54,28 @@
     </div>
 
     <!-- copy right -->
-    <div
-      class="
-        flex
-        lg:flex-row
-        flex-col
-        justify-center
-        pt-4
-        text-gray-300
-        font-light
-        lg:text-sm
-        text-xs
-      "
-    >
-      <div>©2022, All rights reserved</div>
+    <div class="
+                                      flex
+                                      lg:flex-row
+                                      flex-col
+                                      justify-center
+                                      pt-4
+                                      text-gray-300
+                                      font-light
+                                      lg:text-sm
+                                      text-xs
+                                    ">
+      <div>©2022, All rights reserved<span class="px-2"> | </span> </div>
+      <div class=" text-gray-300 lg:text-sm text-xs">
+        Developed by
+        <span class="hover:underline font-semibold"><a href="#" target="_blank">Heng
+            Mouyleng</a></span>
+        Using
+        <span class="underline font-semibold "><a href="https://nuxtjs.org/" target="_blank">Nuxtjs</a>
+        </span>
+        x
+        <span class="underline font-semibold"><a href="https://tailwindcss.com/" target="_blank">Tailwind</a></span>
+      </div>
     </div>
   </div>
 </template>
@@ -139,5 +127,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

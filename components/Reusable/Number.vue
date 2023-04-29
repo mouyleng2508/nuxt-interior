@@ -1,11 +1,7 @@
 <template>
   <div class="lg:py-10 py-7 flex space-x-12">
     <div>
-      <div
-        id="number"
-        data-value="17"
-        class="lg:text-4xl text-xl text-primary font-bold"
-      >
+      <div id="number" data-value="17" class="lg:text-4xl text-xl text-primary font-bold">
         0
       </div>
       <div class="lg:text-sm text-xs text-gray-500 lg:pt-4 pt-2">
@@ -13,24 +9,16 @@
       </div>
     </div>
     <div>
-      <div
-        id="number"
-        data-value="85"
-        class="lg:text-4xl text-xl text-primary font-bold"
-      >
-        0
+      <div id="number" data-value="85" class="lg:text-4xl text-xl text-primary font-bold">
+        20+
       </div>
       <div class="lg:text-sm text-xs text-gray-500 lg:pt-4 pt-2">
         Award Gained
       </div>
     </div>
     <div>
-      <div
-        id="number"
-        data-value="537"
-        class="lg:text-4xl text-xl text-primary font-bold"
-      >
-        0
+      <div id="number" data-value="537" class="lg:text-4xl text-xl text-primary font-bold">
+        500+
       </div>
       <div class="lg:text-sm text-xs text-gray-500 lg:pt-4 pt-2">
         Furnitures sold
@@ -72,5 +60,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
